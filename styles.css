@@ -1,0 +1,175 @@
+body{
+    background-color:#F65110;
+    padding:0px;
+    margin:0px; 
+    font-family: 'Oswald', sans-serif;
+    border: 15px solid 
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding:20px;   
+  }
+.content{
+    width:95%;
+   
+}
+/*Mobile*/
+.tablet{
+    display:none;
+}
+.desktop{
+    display: none;
+}
+.col-12{
+    width:100%; 
+}
+
+.col-12 h1{
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 60px;    
+}
+
+.col-12 h4{
+    font-size:1.4em;
+    font-weight:700;
+    font-style: italic;
+    font-family: 'Bree Serif', serif;
+
+}
+p{
+    font-family: 'Bree Serif', serif;
+
+}
+h4{
+    font-family: 'Bree Serif', serif;
+
+}
+.col-12 p{
+    width:95%;
+
+}
+.contact{
+    width:60%;
+    
+}
+.contact a{
+    color:black;
+}
+.contact-text a{
+    color:white;
+    text-decoration: none;
+}
+.contact-text a:hover{
+    color: black;
+}
+
+
+/*Tablet*/
+@media screen and (min-width:768px){
+.mobile{
+    display:none;
+}
+
+.tablet{
+    display:block;
+    padding-top:80px;
+}
+.col-6{
+    width:45%;
+    font-size:2em;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.col-4{
+    width: 55%;
+}
+.col-4 h4{
+    font-size:1.2em;
+
+}
+.col-7{
+    width:60%;
+}
+.contact{
+    border-top:3px solid;
+    border-bottom:3px solid;
+    width:90%;
+    padding-bottom:40px;
+    padding-top:40px;
+}
+.contact-text{
+    font-size:.6em;
+    line-height: 30px;
+}
+.contact-links{
+    font-size:.5em;
+    line-height: 30px;
+    width:80%;
+}
+}
+/*desktop*/
+@media screen and (min-width:1250px){
+    .desktop{
+      display: unset ;
+    }
+    .mobile{
+        display:none;
+    }
+    .tablet{
+        display:none;    
+    }
+    .col-3{
+        width:38%;
+        padding-top:0px;
+
+    }
+    .col-3 h4{
+        font-size: 2em;
+        line-height: 30px;
+    }
+    .col-2{
+        width:18%;
+        padding-top:60px;
+
+    }
+   .contact{
+    padding-top:0px;
+    padding-bottom:0px;
+
+   }
+    .contact-text{
+        font-size:1.3em;
+       
+    }
+    .contact-links{
+        font-size: .8em;
+        line-height: 30px;
+        width:50%;
+        padding-bottom:40px;
+    }
+    .col-5{
+        width:44%;
+        padding-top: 45px; 
+
+    }
+    .col-5 h1{
+        font-weight: 900;
+        font-size: 8.2em;
+        padding:0px;
+        margin:0px;
+        height:400px;
+        line-height: 120px;
+    }
+    }
