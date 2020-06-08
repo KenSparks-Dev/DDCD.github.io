@@ -80,6 +80,16 @@ h4 {
 
 /*md*/
 @media screen and (min-width: 768px) {
+    p {
+    font-family: 'Bree Serif', serif;
+    padding:0px;
+    margin:0px;
+}
+h4 {
+    font-family: 'Bree Serif', serif;
+    padding:0px;
+    margin-bottom:40px;
+}
 	.mobile {
 		display: none;
 	}
