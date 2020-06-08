@@ -38,20 +38,26 @@ body {
 	font-weight: 700;
 	font-size: 4.5em;
 	line-height: 60px;
-	width: 200px;
+    width: 200px;
+    padding-bottom:0px;
+    margin-bottom:0px;
 }
 
 .col-12 h4 {
 	font-size: 1.4em;
 	font-weight: 700;
 	font-style: italic;
-	font-family: 'Bree Serif', serif;
+    font-family: 'Bree Serif', serif;
 }
 p {
-	font-family: 'Bree Serif', serif;
+    font-family: 'Bree Serif', serif;
+    padding:0px;
+    margin:0px;
 }
 h4 {
-	font-family: 'Bree Serif', serif;
+    font-family: 'Bree Serif', serif;
+    padding:0px;
+    margin-bottom:40px;
 }
 .col-12 p {
 	width: 95%;
@@ -90,7 +96,7 @@ h4 {
 		width: 55%;
 	}
 	.col-4 h4 {
-		font-size: 1.2em;
+        font-size: 1.2em;
 	}
 	.col-7 {
 		width: 60%;
@@ -110,7 +116,8 @@ h4 {
 		font-size: .5em;
 		line-height: 30px;
 		width: 80%;
-	}
+    }
+
 }
 
 /*lg*/
